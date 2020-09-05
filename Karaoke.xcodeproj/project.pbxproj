@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F368152503691F002127CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F368142503691F002127CC /* AppDelegate.swift */; };
+		14F368172503691F002127CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F368162503691F002127CC /* SceneDelegate.swift */; };
+		14F368192503691F002127CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F368182503691F002127CC /* ViewController.swift */; };
+		14F3681C2503691F002127CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F3681A2503691F002127CC /* Main.storyboard */; };
+		14F3681E25036925002127CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F3681D25036925002127CC /* Assets.xcassets */; };
+		14F3682125036925002127CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F3681F25036925002127CC /* LaunchScreen.storyboard */; };
+		14F3682C25036926002127CC /* KaraokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3682B25036926002127CC /* KaraokeTests.swift */; };
+		14F3683725036926002127CC /* KaraokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3683625036926002127CC /* KaraokeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F3682825036926002127CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F368092503691F002127CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F368102503691F002127CC;
+			remoteInfo = Karaoke;
+		};
+		14F3683325036926002127CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F368092503691F002127CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F368102503691F002127CC;
+			remoteInfo = Karaoke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F368112503691F002127CC /* Karaoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karaoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F368142503691F002127CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14F368162503691F002127CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		14F368182503691F002127CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14F3681B2503691F002127CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F3681D25036925002127CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F3682025036925002127CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F3682225036925002127CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F3682725036926002127CC /* KaraokeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F3682B25036926002127CC /* KaraokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeTests.swift; sourceTree = "<group>"; };
+		14F3682D25036926002127CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F3683225036926002127CC /* KaraokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaraokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F3683625036926002127CC /* KaraokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeUITests.swift; sourceTree = "<group>"; };
+		14F3683825036926002127CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F3680E2503691F002127CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3682425036926002127CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3682F25036926002127CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F368082503691F002127CC = {
+			isa = PBXGroup;
+			children = (
+				14F368132503691F002127CC /* Karaoke */,
+				14F3682A25036926002127CC /* KaraokeTests */,
+				14F3683525036926002127CC /* KaraokeUITests */,
+				14F368122503691F002127CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F368122503691F002127CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F368112503691F002127CC /* Karaoke.app */,
+				14F3682725036926002127CC /* KaraokeTests.xctest */,
+				14F3683225036926002127CC /* KaraokeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F368132503691F002127CC /* Karaoke */ = {
+			isa = PBXGroup;
+			children = (
+				14F368142503691F002127CC /* AppDelegate.swift */,
+				14F368162503691F002127CC /* SceneDelegate.swift */,
+				14F368182503691F002127CC /* ViewController.swift */,
+				14F3681A2503691F002127CC /* Main.storyboard */,
+				14F3681D25036925002127CC /* Assets.xcassets */,
+				14F3681F25036925002127CC /* LaunchScreen.storyboard */,
+				14F3682225036925002127CC /* Info.plist */,
+			);
+			path = Karaoke;
+			sourceTree = "<group>";
+		};
+		14F3682A25036926002127CC /* KaraokeTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F3682B25036926002127CC /* KaraokeTests.swift */,
+				14F3682D25036926002127CC /* Info.plist */,
+			);
+			path = KaraokeTests;
+			sourceTree = "<group>";
+		};
+		14F3683525036926002127CC /* KaraokeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F3683625036926002127CC /* KaraokeUITests.swift */,
+				14F3683825036926002127CC /* Info.plist */,
+			);
+			path = KaraokeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F368102503691F002127CC /* Karaoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F3683B25036926002127CC /* Build configuration list for PBXNativeTarget "Karaoke" */;
+			buildPhases = (
+				14F3680D2503691F002127CC /* Sources */,
+				14F3680E2503691F002127CC /* Frameworks */,
+				14F3680F2503691F002127CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karaoke;
+			productName = Karaoke;
+			productReference = 14F368112503691F002127CC /* Karaoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F3682625036926002127CC /* KaraokeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F3683E25036926002127CC /* Build configuration list for PBXNativeTarget "KaraokeTests" */;
+			buildPhases = (
+				14F3682325036926002127CC /* Sources */,
+				14F3682425036926002127CC /* Frameworks */,
+				14F3682525036926002127CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F3682925036926002127CC /* PBXTargetDependency */,
+			);
+			name = KaraokeTests;
+			productName = KaraokeTests;
+			productReference = 14F3682725036926002127CC /* KaraokeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F3683125036926002127CC /* KaraokeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F3684125036926002127CC /* Build configuration list for PBXNativeTarget "KaraokeUITests" */;
+			buildPhases = (
+				14F3682E25036926002127CC /* Sources */,
+				14F3682F25036926002127CC /* Frameworks */,
+				14F3683025036926002127CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F3683425036926002127CC /* PBXTargetDependency */,
+			);
+			name = KaraokeUITests;
+			productName = KaraokeUITests;
+			productReference = 14F3683225036926002127CC /* KaraokeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F368092503691F002127CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = com.litech;
+				TargetAttributes = {
+					14F368102503691F002127CC = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					14F3682625036926002127CC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 14F368102503691F002127CC;
+					};
+					14F3683125036926002127CC = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 14F368102503691F002127CC;
+					};
+				};
+			};
+			buildConfigurationList = 14F3680C2503691F002127CC /* Build configuration list for PBXProject "Karaoke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F368082503691F002127CC;
+			productRefGroup = 14F368122503691F002127CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F368102503691F002127CC /* Karaoke */,
+				14F3682625036926002127CC /* KaraokeTests */,
+				14F3683125036926002127CC /* KaraokeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F3680F2503691F002127CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3682125036925002127CC /* LaunchScreen.storyboard in Resources */,
+				14F3681E25036925002127CC /* Assets.xcassets in Resources */,
+				14F3681C2503691F002127CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3682525036926002127CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3683025036926002127CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F3680D2503691F002127CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F368192503691F002127CC /* ViewController.swift in Sources */,
+				14F368152503691F002127CC /* AppDelegate.swift in Sources */,
+				14F368172503691F002127CC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3682325036926002127CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3682C25036926002127CC /* KaraokeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F3682E25036926002127CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F3683725036926002127CC /* KaraokeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F3682925036926002127CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F368102503691F002127CC /* Karaoke */;
+			targetProxy = 14F3682825036926002127CC /* PBXContainerItemProxy */;
+		};
+		14F3683425036926002127CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F368102503691F002127CC /* Karaoke */;
+			targetProxy = 14F3683325036926002127CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F3681A2503691F002127CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F3681B2503691F002127CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F3681F25036925002127CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F3682025036925002127CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F3683925036926002127CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14F3683A25036926002127CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F3683C25036926002127CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Karaoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Karaoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F3683D25036926002127CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Karaoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Karaoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14F3683F25036926002127CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaraokeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaraokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaoke.app/Karaoke";
+			};
+			name = Debug;
+		};
+		14F3684025036926002127CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaraokeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaraokeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karaoke.app/Karaoke";
+			};
+			name = Release;
+		};
+		14F3684225036926002127CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaraokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaraokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karaoke;
+			};
+			name = Debug;
+		};
+		14F3684325036926002127CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaraokeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.KaraokeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Karaoke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F3680C2503691F002127CC /* Build configuration list for PBXProject "Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3683925036926002127CC /* Debug */,
+				14F3683A25036926002127CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F3683B25036926002127CC /* Build configuration list for PBXNativeTarget "Karaoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3683C25036926002127CC /* Debug */,
+				14F3683D25036926002127CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F3683E25036926002127CC /* Build configuration list for PBXNativeTarget "KaraokeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3683F25036926002127CC /* Debug */,
+				14F3684025036926002127CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F3684125036926002127CC /* Build configuration list for PBXNativeTarget "KaraokeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F3684225036926002127CC /* Debug */,
+				14F3684325036926002127CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F368092503691F002127CC /* Project object */;
+}
